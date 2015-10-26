@@ -1,0 +1,19 @@
+/* Custom Prime Tyylitiedosto © Prime 2015 */
+
+/* Tyylitys koodinpätklille */
+span.code {background-color:#1D1207;color:white;font-family:Consolas;padding:5px;
+    border-radius: 5px;}
+span.variable{color:pink;}
+span.variable2{color:yellowgreen;}
+span.function{color:orange;}
+
+/* Team-sivun muotoilu */
+.teammembers {clear:left;background-color:#eeeeee;padding:5px;margin:15px 0px;border-radius:10px;overflow:auto;}
+.teammembers img{max-width:178px;border-radius:64px;padding:15px;}
+.teammembers h2 {color:#333333;}
+.teammembers p {padding-left:5px;}
+.portrait{vertical-align:middle;}
+.member{vertical-align:middle;padding:5px;}
+.imgsmall {height:128px;width:128px;border-radius:64px;padding:15px;}
+.col-xs-6.col-sm-3 {text-align:center;padding:5px;}
+.orava {margin-bottom:250px;}

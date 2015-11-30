@@ -10,8 +10,12 @@ span.variable{color:pink;}
 span.variable2{color:yellowgreen;}
 span.function{color:orange;}
 
+
+/* Globaalit */
 .jumbotron {color:#666666;overflow:auto;}
 .jumbotron h3 {color:#cc2222;font-weight:bold;font-size:20px;text-align:left;}
+.twitter{text-align:right;float:right;}
+
 
 /* Team-sivun muotoilu */
 .teammembers {clear:left;background-color:#eeeeee;padding:5px;margin:15px 0px;border-radius:10px;overflow:auto;color:#666666;}

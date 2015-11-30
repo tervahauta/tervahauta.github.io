@@ -1,14 +1,19 @@
-/* Custom Prime Tyylitiedosto © Prime 2015 */
+/* Custom Prime Tyylitiedosto Â© Prime 2015 */
 
-/* Tyylitys koodinpätklille */
+body{background-color:#333;color:white;}
+
+/* Tyylitys koodinpÃ¤tklille */
 span.code {background-color:#1D1207;color:white;font-family:Consolas;padding:5px;
     border-radius: 5px;}
 span.variable{color:pink;}
 span.variable2{color:yellowgreen;}
 span.function{color:orange;}
 
+.jumbotron {color:#666666;overflow:auto;}
+.jumbotron h3 {color:#cc2222;font-weight:bold;font-size:20px;text-align:left;}
+
 /* Team-sivun muotoilu */
-.teammembers {clear:left;background-color:#eeeeee;padding:5px;margin:15px 0px;border-radius:10px;overflow:auto;}
+.teammembers {clear:left;background-color:#eeeeee;padding:5px;margin:15px 0px;border-radius:10px;overflow:auto;color:#666666;}
 .teammembers img{max-width:178px;border-radius:64px;padding:15px;}
 .teammembers h2 {color:#333333;}
 .teammembers p {padding-left:5px;}
@@ -17,3 +22,8 @@ span.function{color:orange;}
 .imgsmall {height:128px;width:128px;border-radius:64px;padding:15px;}
 .col-xs-6.col-sm-3 {text-align:center;padding:5px;}
 .orava {margin-bottom:250px;}
+
+
+.projectmanagement{clear:left;background-color:#eeeeee;padding:5px;margin:15px 0px;border-radius:10px;overflow:auto;color:#666666;}
+.projectmanagement img{max-width:80%;border-radius:64px;padding:15px;}
+.visio {font-size:12px;font-family:Roboto;text-align:left;}

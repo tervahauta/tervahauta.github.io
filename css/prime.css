@@ -1,6 +1,7 @@
 /* Custom Prime Tyylitiedosto © Prime 2015 */
 
 body{background-color:#333;color:white;}
+.logo{max-width:80%;display: block;margin-left:auto;margin-right:auto;}
 
 /* Tyylitys koodinpätklille */
 span.code {background-color:#1D1207;color:white;font-family:Consolas;padding:5px;

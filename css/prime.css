@@ -22,8 +22,14 @@ span.function{color:orange;}
 .imgsmall {height:128px;width:128px;border-radius:64px;padding:15px;}
 .col-xs-6.col-sm-3 {text-align:center;padding:5px;}
 .orava {margin-bottom:250px;}
+.visio {font-size:12px;font-family:Roboto;text-align:left;}
 
 
+/* Projektihallinta-sivun muotoilu */
 .projectmanagement{clear:left;background-color:#eeeeee;padding:5px;margin:15px 0px;border-radius:10px;overflow:auto;color:#666666;}
 .projectmanagement img{max-width:80%;border-radius:64px;padding:15px;}
-.visio {font-size:12px;font-family:Roboto;text-align:left;}
+
+/*Ohjelmointi-sivun muotoilu */
+.programming{clear:left;background-color:#eeeeee;padding:5px;margin:15px 0px;border-radius:10px;overflow:auto;color:#666666;}
+.programming img{max-width:80%;border-radius:64px;padding:15px;}
+pre {border-radius:10px;}

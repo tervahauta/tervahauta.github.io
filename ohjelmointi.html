@@ -19,6 +19,9 @@
 	
 	<!-- Prime template -->
     <link href="css/prime.css" rel="stylesheet">
+	
+	<!-- Prettify stylesheet -->
+	<link href="css/prettify.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -35,6 +38,9 @@
         as needed -->
   <script src="js/bootstrap.min.js"></script>
   
+  <!-- Load Prettify with desert skin -->
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=python&skin=desert"></script>
+
   </head>
 
   <body>
@@ -77,15 +83,92 @@
 
 
 
-	<div class="teammembers">
+	<div class="programming">
 		
-			<h2>Otsikko 1</h2>
-			<p>Blahblah.</p>
-			<p>Lirum opsum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lectus risus, imperdiet vitae semper id, suscipit at justo. Nam condimentum luctus bibendum. Nunc non risus felis. Phasellus non est dignissim, euismod massa quis, cursus metus. Pellentesque lacus augue, feugiat et lacinia vestibulum, viverra bibendum libero. Nullam dolor erat, dapibus at nulla vel, commodo accumsan ante. Nam pellentesque purus a luctus imperdiet. </p>
-	
-			<h3>Alaotsikko</h3>
-			<p>In this paragraph, we showcase nothing of importance.</p>
+			<h2>Prime ohjelmoi unelmasi</h2>
+			<p>Me emme pelkää haastavaa koodia.</p>
+			<p>Prime on valmis hyväksymään melkein minkä tahansa koodausprojektin, jonka sinä tarvitset. Kunhan se ei ole "vähän niinkö Facebook".</p>
+			<p>Alla esittelemme koodilihaksiamme Pythonin perustein, katso ja hämmästy.</p>
+			<p>Huomio! Tämä on väliaikainen placeholder-koodi, joka ei ole lopullinen tulos.</p>
+			<pre class="prettyprint">
+import turtle
+
+kappa = turtle.Turtle()
+kappa.pensize(3)
+wn = turtle.Screen()
+wn.bgcolor("gray")
+
+def drawprime(t, scale):
+    t.left(90)          #P niinkuin Pekka
+    t.forward(scale * 30)
+    t.right(90)
+    for i in range(10):
+        t.forward(scale * 10 * 3.14 / 9)
+        t.right(180/9)
+    t.penup()
+    t.left(180)
+    t.forward(scale * 30)
+    t.left(20)
+    
+    t.pendown()
+    t.left(90)          #R niin kuin Riku
+    t.forward(scale * 30)
+    t.right(90)
+    for i in range(10):
+        t.forward(scale * 10 * 3.14 / 9)
+        t.right(180/9)
+    t.left(160)
+    t.forward(scale * 15)
+    t.penup()
+    t.left(20)
+    t.forward(scale * 15)
+    t.left(100)
+    t.pendown()
+    t.forward(scale * 30)   #I niinkuin Ilari
+    t.penup()
+    t.right(90)
+    t.forward(scale * 15)
+    t.right(90)
+    t.forward(scale * 25)
+    t.right(180)
+    t.pendown()
+    t.forward(scale * 25) #M niinkuin Matias
+    t.right(160)
+    t.forward(scale * 25)
+    t.left(160)
+    t.forward(scale * 25)
+    t.right(160)
+    t.forward(scale * 25)
+    t.penup()
+    t.left(90)
+    t.forward(scale * 15)
+    t.left(90)
+    t.pendown()
+    t.forward(scale * 30) #E niinkuin Elias
+    t.right(90)
+    t.forward(scale * 10)
+    t.penup()
+    t.right(90)
+    t.forward(scale * 15)
+    t.right(90)
+    t.pendown()
+    t.forward(scale * 10)
+    t.penup()
+    t.left(90)
+    t.forward(scale * 15)
+    t.left(90)
+    t.pendown()
+    t.forward(scale * 15)
+
+
+
+drawprime(kappa, 2)
+
+wn.mainloop()</pre>
+	<p>Ylläoleva koodi toteuttaa tämän!</p>
+	<img src="img/programming.png">
+			<h3>Lähesty meitä!</h3>
+			<p>Nyt kun olet nähnyt mahtavat voimamme, lähetä meille kooditoiveesi ja arvioimme onko se koodivelhojemme ajan arvoista.</p>
 	</div>
 
 

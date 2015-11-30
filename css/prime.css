@@ -27,10 +27,10 @@ span.function{color:orange;}
 
 
 /* Projektihallinta-sivun muotoilu */
-.projectmanagement{clear:left;background-color:#eeeeee;padding:5px;margin:15px 0px;border-radius:10px;overflow:auto;color:#666666;}
-.projectmanagement img{max-width:80%;border-radius:64px;padding:15px;}
+.projectmanagement{clear:left;background-color:#eeeeee;padding:15px;margin:15px 0px;border-radius:10px;overflow:auto;color:#666666;}
+.projectmanagement img{max-width:80%;border-radius:64px;padding:15px;display:block;margin-left:auto;margin-right:auto;}
 
 /*Ohjelmointi-sivun muotoilu */
-.programming{clear:left;background-color:#eeeeee;padding:5px;margin:15px 0px;border-radius:10px;overflow:auto;color:#666666;}
+.programming{clear:left;background-color:#eeeeee;padding:15px;margin:15px 0px;border-radius:10px;overflow:auto;color:#666666;}
 .programming img{max-width:80%;border-radius:64px;padding:15px;}
-pre {border-radius:10px;}
+pre {border-radius:10px;max-width:80%;display:block;margin-left:auto;margin-right:auto;}

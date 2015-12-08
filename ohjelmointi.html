@@ -15,8 +15,6 @@
 	<link href="jumbotron-narrow.css" rel="stylesheet">
 	<!-- Prime template -->
 	<link href="css/prime.css" rel="stylesheet">
-	<!-- Prettify stylesheet -->
-	<link href="css/prettify.css" rel="stylesheet">
 	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -101,8 +99,29 @@
 			sinä tarvitset. Kunhan se ei ole "vähän niinkö Facebook".</p>
 			<p>Alla esittelemme koodilihaksiamme Pythonin perustein, katso ja
 			hämmästy.</p>
-			<p>Huomio! Tämä on väliaikainen placeholder-koodi, joka ei ole lopullinen
-			tulos.</p>
+			<p>Tässä koodiesimerkissä luomme yksinkertaisen Python-tiedoston joka tarkistaa onko sinussa (numerossasi) Prime-ainesta?</p>
+			<pre class="prettyprint">
+# Onko luvussasi Prime-ainesta?
+# (Tämä ohjelma tarkistaa onko antamasi luku prime, eli alkuluku.)
+print("Prime-arviointi v 1.0")
+numero = int(input("Anna lukusi: "))
+# Ohjelman on hyvä olla ystävällinen.
+print("Kiitos.")
+
+# Vaikka prime on #1, lukumme on sitä suurempi.
+if numero > 1:
+    # Salainen algoritmimme jakaa lukusi kunnes selviää, onko se alkuluku
+    for i in range(2,numero):
+        if (numero % i) == 0:
+            print(numero,"ei ole alkuluku")
+            print("Ikävä kyllä",i,"kertaa",numero//i,"on",numero) 
+            break
+		else:
+			print("Hurraa!",numero,"on alkuluku!")
+else:
+    print("Lukusi tulee olla suurempi kuin 1")
+			</pre>
+			<p>Tässä koodiesimerkissä piirrämme Prime-kuvan käyttäen Pythonin turtleja. Huomioi ettei Prime-koodarimme ole Prime-graafikko.</p>
 			<pre class="prettyprint">
 import turtle
 
